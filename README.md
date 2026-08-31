@@ -39,26 +39,33 @@
 | **KSP** | Kotlin Symbol Processing (Room annotatsiyalarini kompilyatsiya qilish uchun) |
 | **AndroidX Activity (Edge-to-Edge)** | To'liq ekranli, zamonaviy UI |
 
-### 🏗 Arxitektura
-
-Loyiha **Single-Activity + Fragment** arxitekturasi asosida qurilgan:
-
-```
-MainActivity (host)
- └── NavHostFragment (nav_graph.xml)
-      ├── LevelScreen   — daraja tanlash, "About" va "Exit" dialoglari
-      └── GameScreen    — o'yin maydoni, kartalar mantig'i, menyu va g'alaba dialogi
-```
-
-- **MainActivity** — yagona Activity, faqat `NavHostFragment`'ni ushlab turadi va edge-to-edge rejimini yoqadi.
-- **Navigation Component** — `LevelScreen` va `GameScreen` orasidagi o'tishlarni `nav_graph.xml` orqali boshqaradi; `Bundle` yordamida tanlangan `LevelEnum` `GameScreen`'ga uzatiladi.
-- **UI qatlami (View)** — barcha ekranlar `res/layout/*.xml` fayllarida deklarativ tarzda chizilgan, kod ichida esa **View Binding** orqali (`ScreenGameBinding`, `ScreenLevelBinding` va h.k.) murojaat qilinadi — dinamik `findViewById` chaqiruvlari minimallashtirilgan.
-- **Domain qatlami** — `AppRepository` (singleton `object`) statik karta ro'yxatini (`R.drawable.image_1..25`) saqlaydi va tanlangan darajaga mos juftlashgan, aralashtirilgan karta ro'yxatini (`getCardListByLevel`) qaytaradi.
-- **Model qatlami** — `CardData` (karta ma'lumoti: id + rasm resursi) va `LevelEnum` (daraja bo'yicha taxta o'lchami: `horizontalCount` x `verticalCount`) oddiy data-model sifatida ajratilgan.
-- **Adapter qatlami** — `InfoAdapter` "About" dialogidagi matnli ro'yxatni `RecyclerView` orqali chiqaradi.
-- **O'yin mantig'i** — `GameScreen` fragmenti ichida joylashgan: kartalarni dinamik `ImageView` sifatida yaratish, flip-animatsiyalar (`rotationY`), ikkita kartani solishtirish (`isCorrect`), mos kelsa yashirish (`correct`), mos kelmasa qayta yopish (`closeCard`) va g'alaba shartini tekshirish.
 ## 👤 Muallif
 
 **Abdullojon Farmonov**
 
 **farmonovabdullojon04@gmail.com**
+<img width="386" height="854" alt="image" src="https://github.com/user-attachments/assets/fb67426d-e08e-4243-aa56-2d68d8f137a7" />
+<img width="720" height="1560" alt="image" src="https://github.com/user-attachments/assets/31812618-1d28-41dd-b028-f2383f48ed25" />
+<img width="720" height="1560" alt="image" src="https://github.com/user-attachments/assets/71e5c10f-d533-4b0a-ae16-e8781b4a03d2" />
+<img width="720" height="1560" alt="image" src="https://github.com/user-attachments/assets/5ce34378-6004-4b5c-b145-1566a937fc54" />
+<img width="720" height="1560" alt="image" src="https://github.com/user-attachments/assets/7f602c66-a9b9-4296-8a9a-2f7c537f7ef3" />
+<img width="720" height="1560" alt="image" src="https://github.com/user-attachments/assets/04b86ebf-1cc9-4c78-8f70-27a84c8d3294" />
+<img width="720" height="1560" alt="image" src="https://github.com/user-attachments/assets/96e97cfc-c971-4a0a-9068-11f699e45061" />
+<img width="720" height="1560" alt="image" src="https://github.com/user-attachments/assets/285b88bf-da13-4259-945e-ed25f1ec3234" />
+<img width="720" height="1560" alt="image" src="https://github.com/user-attachments/assets/c6a79f10-36f3-4619-8b2b-e0718fe67417" />
+<img width="720" height="1560" alt="image" src="https://github.com/user-attachments/assets/3e4a0fa8-9617-472f-aa2f-434e609845a4" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
