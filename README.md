@@ -46,10 +46,6 @@
 **farmonovabdullojon04@gmail.com**
 
 
-
-
-
-<img width="360" height="780" alt="image" src="https://github.com/user-attachments/assets/fb67426d-e08e-4243-aa56-2d68d8f137a7" />
 <img width="360" height="780" alt="image" src="https://github.com/user-attachments/assets/31812618-1d28-41dd-b028-f2383f48ed25" />
 <img width="360" height="780" alt="image" src="https://github.com/user-attachments/assets/71e5c10f-d533-4b0a-ae16-e8781b4a03d2" />
 <img width="360" height="780" alt="image" src="https://github.com/user-attachments/assets/5ce34378-6004-4b5c-b145-1566a937fc54" />
