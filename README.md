@@ -47,7 +47,7 @@
 
 
 
-<!-- Failed to upload "video_2026-08-31_19-35-38.mp4" -->
+https://github.com/user-attachments/assets/224e2bcd-78df-4973-80fe-89db7ca80a0f
 
 <img width="180" height="360" alt="image" src="https://github.com/user-attachments/assets/31812618-1d28-41dd-b028-f2383f48ed25" />
 <img width="180" height="360" alt="image" src="https://github.com/user-attachments/assets/71e5c10f-d533-4b0a-ae16-e8781b4a03d2" />
